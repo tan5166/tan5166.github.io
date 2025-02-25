@@ -14,6 +14,8 @@ Here's how it works:
 - **Group Assignment:** Users can be added to one or more groups, or they can remain ungrouped.
 - **Policies:** We can assign JSON documents, known as policies, to both groups or individual users. These policies define the specific permissions for accessing AWS services.
 - **Least Privilege Principle:** In AWS, we apply least privilege principle, that is, we don't give more permission than a user needs.
+- **Roles:** We assign permission to AWS services with IAM Roles, so that they can perform certain specific actions.
+- **Audit:** IAM Credential Reports & IAM Access Advisor.
 
 This approach helps secure our AWS environment by minimizing the risk of accidental or unauthorized actions.
 
