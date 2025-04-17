@@ -1,0 +1,183 @@
+$themeColor: rgb(76, 205, 196);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+body {
+  overflow-x: hidden;
+  nav {
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    ul {
+      display: flex;
+      justify-content: flex-end;
+      li {
+        list-style-type: none;
+        margin: 1rem;
+        a {
+          text-decoration: none;
+          color: black;
+          transition: all 0.1s ease;
+          &:hover {
+            color: $themeColor;
+          }
+        }
+      }
+    }
+  }
+  main {
+    section.main-area {
+      min-height: 70vh;
+      background-color: white;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      div.info {
+        flex-basis: 450px;
+        margin-right: 2rem;
+        // text-align: center;
+        // border: 2px solid black;
+        padding: 1rem;
+        h1 {
+          font-size: 3.5rem;
+        }
+        h2 {
+          font-size: 1rem;
+        }
+        a {
+          display: inline-block;
+          padding: 0.25rem 0.5rem;
+          background-color: $themeColor;
+          text-decoration: none;
+          color: white;
+          font-size: 1.25rem;
+          border-radius: 20px;
+          margin-top: 1.5rem;
+          transition: all 0.2s ease;
+          &:hover {
+            transform: scale(1.2);
+            background-color: white;
+            color: $themeColor;
+            border: 2px solid $themeColor;
+          }
+        }
+      }
+      div.img-area {
+        flex-basis: 400px;
+        // border: 2px solid red;
+        img {
+          width: 100%;
+        }
+      }
+    }
+    section.about-me {
+      background-color: rgba($themeColor, 0.2);
+      padding: 5rem 0rem;
+      display: flex;
+      justify-content: center;
+      section.description {
+        width: 50%;
+        text-align: center;
+        h2 {
+          scroll-margin-top: 100px;
+          font-size: 2rem;
+        }
+        .progress-bar-area {
+          p {
+            font-weight: bold;
+            margin-top: 1rem;
+          }
+        }
+      }
+    }
+    section.resume {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 2rem;
+      align-items: center;
+      section.table {
+        flex: 7 1 500px;
+        // border: 2px solid red;
+        padding: 2rem;
+        border-collapse: collapse;
+        margin-right: 2rem;
+        table {
+          --bs-table-bg: none;
+          tr {
+            border-bottom: 2px solid grey;
+            transition: all 0.2s ease;
+            td {
+              padding: 0.5rem;
+            }
+            &:hover {
+              background-color: rgba($themeColor, 0.3);
+            }
+          }
+        }
+      }
+      section.picture {
+        position: relative;
+        flex: 1 1 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+          width: 80%;
+        }
+        div.greenRect1 {
+          position: absolute;
+          width: 30vw;
+          height: 40vh;
+          border: 10px solid rgba($themeColor, 0.3);
+          top: -50px;
+          left: 80px;
+          z-index: -1;
+        }
+        div.greenRect2 {
+          position: absolute;
+          width: 60vw;
+          height: 30vh;
+          border: 10px solid rgba($themeColor, 0.3);
+          top: 100px;
+          left: -150px;
+          z-index: -1;
+        }
+        div.greenRect3 {
+          position: absolute;
+          width: 20vw;
+          height: 31vh;
+          border: 10px solid rgba($themeColor, 0.3);
+          top: 10px;
+          left: -20px;
+          z-index: -1;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    main {
+      section.about-me {
+        section.description {
+          width: 80%;
+        }
+      }
+    }
+  }
+}
