@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main nav {
+  padding: 0.7rem 1rem;
+  background-color: #3c3c3c;
+}
+main nav ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+}
+main nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+main nav ul li a:hover {
+  border-bottom: white solid 2px;
+}
+main div.pdf iframe {
+  display: block;
+  border: none;
+  width: 100%;
+  height: 95vh;
+}/*# sourceMappingURL=style.css.map */
