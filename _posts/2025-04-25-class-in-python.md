@@ -6,7 +6,7 @@ tags: [oop]     # TAG names should always be lowercase
 math: false
 ---
 
-# Class in Python
+## Class in Python
 類（Class）是面向對象編程（OOP, Object-Oriented Programming）的基石。所謂的**面對對象**的意思就是，我們把現實當中的事物抽象成程式中的**對象**（Object），而類就是用來定義這些對象的模版。這樣說可能有點抽象，舉個例子，狗就是一個類，他有 name, age 等屬性，而小黑這條特定的狗就是一個對象，他有屬於自己的名字和年齡。以下是 Python 中類的語法：
 
 ```python
@@ -27,7 +27,7 @@ print(my_dog.name)  # 讀取屬性
 my_dog.bark()       # 呼叫方法
 ```
 
-# Class inheritance in Python
+## Class inheritance in Python
 為了更好地貫徹 DRY (Dont Repeat Yourself) 原則，減少重複的代碼，類可以繼承 (inheritance). 繼承指的是「子類別」可以繼承「父類別」的**屬性**和**方法**。比方說「貓」和「狗」都是「動物」的一種，它們都會「吃東西」，但叫聲不一樣。我們就可以先寫一個動物的類，裡面有吃東西的方法，再讓貓和狗的類各自繼承。Python 中的語法如下：
 ```python
 class Animal:
