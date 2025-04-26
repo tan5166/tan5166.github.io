@@ -15,7 +15,7 @@ order: 4
 
 ## Machine Learning
 - A Data Poisoning Approach to Prevent Unauthorized LoRA Fine-Tuning
-- To be updated.s
+- To be updated.
 
 ## PDE
 - [Analysis of Solution Structure in Reaction-Diffusion Equations with Discontinuous Coefficients](../projects/special-project/index.html)
