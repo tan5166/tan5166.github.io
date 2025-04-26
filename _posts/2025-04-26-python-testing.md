@@ -1,7 +1,7 @@
 ---
 title: Python 測試
 date: 2025-04-26 17:53:41 +0800
-categories: [Python， Basics]
+categories: [Python, Basics]
 tags: []     # TAG names should always be lowercase
 math: false
 ---
