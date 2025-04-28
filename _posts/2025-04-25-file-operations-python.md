@@ -1,7 +1,7 @@
 ---
 title: Python 中的文件操作
 date: 2025-04-25 03:05:00 +0800
-categories: [Python, Basics]  
+categories: [Python, Python Basics]  
 tags: []     # TAG names should always be lowercase
 math: false
 ---

@@ -1,7 +1,7 @@
 ---
 title: 數據的整潔與乾淨
 date: 2025-04-28 22:23:40 +0800
-categories: [Data, Basics]
+categories: [Data, Data Basics]
 tags: [data]     # TAG names should always be lowercase
 math: false
 ---

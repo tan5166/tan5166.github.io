@@ -1,7 +1,7 @@
 ---
 title: Pandas 簡介 —— Series
 date: 2025-04-27 21:22:20 +0800
-categories: [Python, Basics]
+categories: [Python, Python Basics]
 tags: [pandas]     # TAG names should always be lowercase
 math: false
 ---

@@ -1,7 +1,7 @@
 ---
 title: Python 高階和匿名函數
 date: 2025-04-27 00:18:42 +0800
-categories: [Python, Basics]
+categories: [Python, Python Basics]
 tags: []     # TAG names should always be lowercase
 math: false
 ---

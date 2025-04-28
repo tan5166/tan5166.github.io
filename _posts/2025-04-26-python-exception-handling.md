@@ -1,7 +1,7 @@
 ---
 title: Python 異常處理
 date: 2025-04-26 17:06:32 +0800
-categories: [Python, Basics]
+categories: [Python, Python Basics]
 tags: []     # TAG names should always be lowercase
 math: false
 ---

@@ -1,7 +1,7 @@
 ---
 title: Numpy 簡介
 date: 2025-04-27 16:14:02 +0800
-categories: [Python, Basics]
+categories: [Python, Python Basics]
 tags: [numpy]     # TAG names should always be lowercase
 math: false
 ---

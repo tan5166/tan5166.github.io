@@ -1,7 +1,7 @@
 ---
 title: Python 中的 Class 和 Class Inheritance 語法
 date: 2025-04-25 02:28:00 +0800
-categories: [Python, Basics]  
+categories: [Python, Python Basics]  
 tags: [oop]     # TAG names should always be lowercase
 math: false
 ---

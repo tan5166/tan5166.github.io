@@ -1,7 +1,7 @@
 ---
 title: Pandas 簡介 —— 關於 CSV
 date: 2025-04-28 21:56:26 +0800
-categories: [Python, Basics]
+categories: [Python, Python Basics]
 tags: [pandas, csv]     # TAG names should always be lowercase
 math: false
 ---
