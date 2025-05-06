@@ -1,8 +1,8 @@
 ---
 title: 爬蟲篇 3 —— 用 Beautiful Soup 解析 HTML
 date: 2025-05-06 17:38:37 +0800
-categories: []
-tags: []     # TAG names should always be lowercase
+categories: [Data, Web Scraping]
+tags: [data, requests, web scraping]  # TAG names should always be lowercase
 math: false
 ---
 
