@@ -14,3 +14,4 @@ Beyond that, I also hope to connect with like-minded people who share an interes
 ## Changelog
 
 - 2024/12/21 — Built the website on GitHub using Jekyll with the Chirpy theme.
+- 2025/05/07 — Migrated the website to a new domain: [https://tan5166.xyz](https://tan5166.xyz)
